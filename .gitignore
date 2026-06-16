@@ -1,0 +1,18 @@
+# Virtual Environments
+ocr/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite3
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
