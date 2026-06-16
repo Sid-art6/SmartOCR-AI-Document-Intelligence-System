@@ -2,6 +2,8 @@
 
 SmartOCR AI is an OCR-powered document intelligence platform built using Python, Streamlit, OpenCV, Tesseract OCR, and SQLite. The system automates text extraction, document classification, metadata extraction, analytics, and batch document processing for images and PDF documents.
 
+Live Demo - https://smartocr-ai-document-intelligence-system-fprkumfvpgmwkrbduxczv.streamlit.app/
+
 ## 🚀 Features
 
 * OCR text extraction from Images and PDFs
