@@ -5,7 +5,12 @@ import time
 import os
 import fitz  # PyMuPDF
 from classifier import load_settings
+import os
+
 def get_tesseract_cmd():
+    if os.name != "nt":   # Linux / Streamlit Cloud
+        return "tesseract"
+
     settings = load_settings()
     return settings.get(
         "tesseract_path",
